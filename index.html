@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontes usados do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <title>Cadastro</title>
+
+</head>
+<body>
+    <div class="row">
+    <div class="container">
+        <div class="header">             
+        <h2>Criar uma conta no Converta</h2>
+        <div class="edit">
+            
+            <button id='btn-div'>Editar Usuário</button>
+            
+        </div>
+        
+        </div>
+        
+        <!-- Partes do Formulário -->
+        <form id="form" class="form">
+            <div class="controle-form">
+                <label for="usuario">Nome de usuário</label>
+                <input type="text" id="usuario"
+                placeholder="Digite o nome de usuário..."/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="controle-form">
+                <label for="email">Email</label>
+                <input type="text" id="email"
+                placeholder="Digite seu email..."/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="controle-form">
+                <label for="password">Senha</label>
+                <input type="password" id="password"
+                placeholder="Digite sua senha..."/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="controle-form">
+                <label for="password-confirmacao">Confirme sua senha</label>
+                <input type="password" id="password-confirmacao"
+                placeholder="Confime sua senha..."/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <!--  <button type="submit">Registrar</button>   -->
+            <button id="registrar">Registrar</button>
+
+        </form> 
+        </div>
+
+        <div class="containerEdit">        
+
+        <div class="container-edit">
+            <div class="header"> 
+                <header class="edição"><p>Edição de dados</p></header>
+            </div>
+            
+              
+        <div class="botoes">            
+            <button id="btnExcluir">Excluir</button>
+
+            <button id="btnMostrar">Mostrar</button>
+
+            <button id="btnEditar">Editar</button>
+        </div>
+
+        <div id="tela"></div>
+
+        </div>
+    
+    </div>
+
+        <br><br><br><br><br><br><br>
+
+    </div>  
+
+  
+     <!-- Icones usados nos inputs -->
+    <script src="https://kit.fontawesome.com/1eee03d0e0.js" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

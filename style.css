@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #42f57b 0%, #0aa39e 100%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1.5);
+    width: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.container-edit {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1.5);
+    width: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.header {
+    background-color: #f4f5ed;
+    padding: 20px;
+}
+
+.form {
+    padding: 20px;
+}
+
+.controle-form {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.controle-form label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.controle-form input {
+    border: 2px solid #dee0e0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.controle-form i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.controle-form small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button {
+    background-color: #014a43;
+    border: 2px solid #014a43;
+    color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.edit  {
+    background-color: #014a43;
+    border: 2px solid #014a43;
+    color: #ffffff;
+    font-size: 14px;
+    width: 20%;
+    border-radius: 5px;
+    padding: 5px;        
+}
+
+.controle-form.sucesso input {
+    border-color: #42f57b;
+}
+
+.controle-form.error input {
+    border-color: #fc1c03;
+}
+
+.controle-form.sucesso i.fa-check-circle {
+    color: #42f57b;
+    visibility: visible;
+}
+
+.controle-form.error i.fa-exclamation-circle {
+    color: #fc1c03;
+    visibility: visible;
+}
+
+.controle-form.error small {
+    visibility: visible;
+    color: #fc1c03;
+}
+
+#tela {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 600px;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.descript {
+    background-color: aquamarine;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1.5);
+    width: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.descript button {
+    background-color: #014a43;
+    border: 2px solid #014a43;
+    color: #ffffff;
+    font-size: 14px;
+    width: 20%;
+    border-radius: 5px;
+    padding: 5px;        
+}
+
+#btnExcluir, #btnEditar, #btnMostrar, #bntCad {
+    background-color: #014a43;
+    border: 2px solid #014a43;
+    color: #ffffff;
+    font-size: 14px;
+    width: 20%;
+    border-radius: 5px;
+    padding: 5px; 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#btn-div {
+    background-color: #014a43;
+    color: #ffffff;
+    border: #014a43;
+    margin-left: 10px;
+}
+
+.ediçãoEd {
+    background-color: #dee0e0;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+    
+.containerEdit {
+    display: none;
+}
+

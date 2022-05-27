@@ -1,0 +1,21 @@
+{
+  "title": "Converta, página de cadastro e controle de usuário",
+  "description": "Dados para o controle dos usuários",
+  "type": "object",
+  "properties": {
+    "usuario": {
+      "description": "Identificação do usuário na página",
+      "type": "string"
+    },
+    "email": {
+      "description": "Identificação do usuário para realização do login",
+      "type": "string"
+    },
+    "senha": {
+      "description": "identifição do usuário para realização do login",
+      "type": "number",
+      "exclusiveMinimum": 5
+    }
+  },
+  "required": [ "usuario", "email", "senha" ]
+}
